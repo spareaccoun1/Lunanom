@@ -1,5 +1,5 @@
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://github.com/spareaccoun1/Lunanom/)
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/spareaccoun1/Lunanom/)
 
 
 <h2>This is a frontend made for the Ultraviolet proxy. (BETA)</h2>
