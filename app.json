@@ -1,6 +1,28 @@
+
 {
-  "name": Lunanom",
+  "name": "repo name",
   "description": "A functional and easy to use proxy site, with loads of games!",
-  "repository": "https://github.com/spareaccoun1/Lunanom",
-  "keywords": ["lunanom", "proxy", "unblocker", "iboss", "roblox", "bypass"]
+  "repository": "https://github.com/spareaccoun1/Lunanom/",
+  "logo": "https://pbs.twimg.com/media/FO7fojOakAAyYgt?format=jpg&name=900x900",
+  "keywords": ["lunanom", "proxy", "unblocker", "iboss", "roblox", "bypass"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
 }
